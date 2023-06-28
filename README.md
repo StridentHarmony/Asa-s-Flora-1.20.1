@@ -10,4 +10,6 @@ Discord handle in profile README.
 
 - Durian
 
+- Stinging Nettle
+
 - TBD
