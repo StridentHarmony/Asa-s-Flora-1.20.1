@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "asas-flora",
+	"version": "${1.20.1}",
+	"name": "Asa's Flora",
+	"description": "Adds a bunch of cool plants, trees, and crops! And also fungi even though flora only refers to plants! Except for when it doesn't!",
+	"authors": [
+		"StridentHarmony | Asa"
+	],
+	"contact": {
+		"homepage": "https://github.com/StridentHarmony",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/asas-flora/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"strident.asasflora.AsasFlora"
+		],
+		"fabric-datagen": [
+			"strident.asasflora.AsasFloraDataGenerator"
+		]
+	},
+	"mixins": [
+		"asas-flora.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
