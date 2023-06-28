@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://github.com/StridentHarmony",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/StridentHarmony/Asa-s-Flora-1.20.1"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/asas-flora/icon.png",
@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"strident.asasflora.AsasFlora"
+		],
+		"client": [
+			"strident.asasflora.AsasFloraClient"
 		],
 		"fabric-datagen": [
 			"strident.asasflora.AsasFloraDataGenerator"
