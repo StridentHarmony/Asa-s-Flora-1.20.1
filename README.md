@@ -12,4 +12,6 @@ Discord handle in profile README.
 
 - Stinging Nettle
 
+- Aloe Vera
+
 - TBD
